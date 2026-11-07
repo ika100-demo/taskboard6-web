@@ -1,7 +1,7 @@
 ---
 spec_id: 001-task-page-at-the-root-url-list-tasks
 title: Task page at the root URL - list tasks with due dates and create a task with a form
-status: building
+status: done
 priority: P1
 shape: web-nextjs
 parent: ika100-demo/taskboard6-gitops:001-persistent-tasks-and-task-ui
@@ -133,3 +133,4 @@ API server; smoke: page loads (`@smoke`), create a `smoke-<uuid>` task (`@smoke 
 - 2026-11-07 created from the system plan, with its criteria (spec 147)
 - 2026-11-07 approved
 - 2026-11-07 building
+- 2026-11-07 done
