@@ -17,6 +17,7 @@ tasks:
     covers: [AC-001.1, AC-001.3, AC-001.4, AC-001.6, AC-001.7, AC-001.8]
     parallel_safe: true
     depends_on: [t1]
+    done: true
   - id: t4
     title: Add the TaskBoard client component (form, list, states, submit flow)
     files: [app/_components/task-board.tsx, app/globals.css]
