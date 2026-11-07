@@ -38,6 +38,7 @@ tasks:
     covers: [AC-001.1, AC-001.2, AC-001.7]
     parallel_safe: true
     depends_on: [t2, t4]
+    done: true
 ---
 
 # Plan — 001 Task page at the root URL
