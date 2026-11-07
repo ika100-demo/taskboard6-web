@@ -10,6 +10,7 @@ tasks:
     covers: [AC-001.1, AC-001.5]
     parallel_safe: true
     depends_on: []
+    done: true
   - id: t2
     title: Add the server-only taskboard6-api client with timeouts
     files: [app/_lib/tasks-api.ts, docs/env-vars.md]
